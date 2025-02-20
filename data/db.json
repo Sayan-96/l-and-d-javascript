@@ -1,0 +1,109 @@
+{
+  "employees": [
+    {
+      "emp_id": 1,
+      "emp_fname": "John Doe",
+      "email": "john.doe@example.com",
+      "contact": "1234567890",
+      "domain_id": 1,
+      "team_id": 1,
+      "id": "9c47"
+    },
+    {
+      "emp_id": 2,
+      "emp_fname": "Jane Doe",
+      "email": "alice.smith@example.com",
+      "contact": "1234567890",
+      "domain_id": 1,
+      "team_id": 1,
+      "id": "9c48"
+    },
+    {
+      "emp_id": 3,
+      "emp_fname": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "contact": "1234567890",
+      "domain_id": 1,
+      "team_id": 1,
+      "id": "9c49"
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": 1,
+      "domain_name": "Web Development",
+      "id": "9a24"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": 1,
+      "course_name": "JavaScript Basics",
+      "duration": "4 weeks",
+      "domain_id": 1,
+      "id": "86c0"
+    }
+  ],
+  "trainers": [
+    {
+      "trainer_id": 1,
+      "trainer_fname": "Alice Smith",
+      "domain_id": 1,
+      "email": "alice.smith@example.com",
+      "id": "960f"
+    }
+  ],
+  "teams": [
+    {
+      "team_id": 23,
+      "team_name": "Nava_Team",
+      "members": [
+        1
+      ],
+      "id": "8775"
+    },
+    {
+      "team_id": 1,
+      "team_name": "Sayan_Team",
+      "members": [
+        1,
+        2
+      ],
+      "id": "6407"
+    },
+    {
+      "team_id": 5,
+      "team_name": "Nava_Team",
+      "members": [
+        2
+      ],
+      "id": "a3b1"
+    },
+    {
+      "id": "6407",
+      "team_id": 24,
+      "team_name": "Sayan_Team",
+      "members": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "a3b1",
+      "team_id": 5,
+      "team_name": "Nava_Team",
+      "members": [
+        2
+      ]
+    },
+    {
+      "id": "9d65",
+      "team_id": 25,
+      "team_name": "Jyothi",
+      "members": [
+        3,
+        2
+      ]
+    }
+  ]
+}

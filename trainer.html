@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainer</title>
+    <link rel="stylesheet" href="trainer.css">
+   
+</head>
+<body>
+    <header>
+        <button type="button"><a href="index.html">Home</a></button>
+        <button type="button"><a href="domain.html">Domain</a></button>
+        <button type="button"><a href="courses.html">Courses</a></button>
+        <button type="button"><a href="teams.html">Teams</a></button>
+        <button type="button"><a href="employee.html">Employee</a></button>
+    </header>
+    <main>
+        <!-- Trainer Form -->
+        <form id="trainerForm">
+            <div>
+                <label for="id" hidden>id:</label>
+                <input type="text" id="id" class="form-control" placeholder="name" hidden> 
+            </div>
+            <div class="input-field">
+                <i class="fa-solid fa-id-badge"></i>
+                <input type="number" id="trainer_id" placeholder="Trainer ID" required>
+            </div>
+            <div class="input-field">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="trainer_name" placeholder="Trainer Name" required>
+            </div>
+            <div class="input-field">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" id="contact" placeholder="Mobile Number" required>
+            </div>
+            <div class="input-field">
+                <i class="fa fa-envelope"></i>
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-field">
+                <i class="fa-solid fa-building"></i>
+                <select id="domain_id" required>
+                    <option value="" disabled selected>Select Domain</option>
+                </select>
+            </div>
+            <div class="form-actions">
+                <button type="submit" id="submitbtn" class="submit-btn">Submit</button>
+                <button type="button" id="updateButton" onclick="updateTrainer()" disabled>Update</button>
+            </div>
+        </form>
+    </main>
+        <!-- Trainer Table -->
+        <h2>Trainer List</h2>
+        <table border="5">
+            <thead>
+                <tr>
+                    <th>Trainer ID</th>
+                    <th>Trainer Name</th>
+                    <th>Contact</th>
+                    <th>Email</th>
+                    <th>Domain ID</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="trainerTableBody">
+            </tbody>
+        </table>
+    
+    <footer></footer>
+    <script src="trainer.js" defer></script>
+</body>
+</html>

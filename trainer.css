@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; 
+    color: #333; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    margin: 0 1rem;
+}
+
+header button a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header button a:hover {
+    color: #d0f0c0; 
+}
+
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.8rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:hover,
+.input-field:focus-within {
+    border-color: navy; 
+}
+
+.input-field i {
+    font-size: 1.2rem;
+    color: navy;
+}
+
+.input-field input,
+.input-field select {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.2rem;
+}
+
+.input-field input::placeholder {
+    color: #aaa;
+}
+select {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    header button {
+        margin: 0 0.5rem;
+    }
+}
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    color: #333;
+}
+
+/* Buttons inside table */
+.edit-btn, .delete-btn {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.edit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}

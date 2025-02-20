@@ -1,0 +1,42 @@
+{
+  "employee": [],
+  "domain": [
+    {
+      "domain_id": 1,
+      "domain_name": "ADM",
+      "id": "b97c"
+    },
+    {
+      "domain_id": 2,
+      "domain_name": "BAT-DA",
+      "id": "85f5"
+    },
+    {
+      "domain_id": 3,
+      "domain_name": "Infra",
+      "id": "0f21"
+    },
+    {
+      "domain_id": 4,
+      "domain_name": "ERP",
+      "id": "2d3d"
+    },
+    {
+      "domain_id": 5,
+      "domain_name": "Testing",
+      "id": "6dc8"
+    }
+  ],
+  "course": [],
+  "trainer": [
+    {
+      "trainer_id": "1",
+      "trainer_name": "Dhinesh",
+      "contact": "1234567890",
+      "email": "d@gmail.com",
+      "domain_id": "1",
+      "id": "3810"
+    }
+  ],
+  "teams": []
+}

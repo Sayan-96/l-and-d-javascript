@@ -1,0 +1,104 @@
+{
+  "employee": [],
+  "domain": [
+    {
+      "domain_id": 1,
+      "domain_name": "ADM",
+      "id": "c83c"
+    },
+    {
+      "domain_id": 2,
+      "domain_name": "BAT-DA",
+      "id": "7ad6"
+    },
+    {
+      "domain_id": 3,
+      "domain_name": "Infra",
+      "id": "e518"
+    },
+    {
+      "domain_id": 4,
+      "domain_name": "ERP",
+      "id": "8c6a"
+    },
+    {
+      "domain_id": 5,
+      "domain_name": "Testing",
+      "id": "46e3"
+    }
+  ],
+  "course": [
+    {
+      "id": "061c",
+      "c_id": "301",
+      "name": "Agile Methodologies",
+      "d_id": "1",
+      "duration": "20"
+    },
+    {
+      "id": "dbaa",
+      "c_id": "302",
+      "name": "Project Management with Scrum",
+      "d_id": "1",
+      "duration": "25"
+    },
+    {
+      "id": "5ae0",
+      "c_id": "303",
+      "name": "Data Analysis with Python",
+      "d_id": "2",
+      "duration": "30"
+    },
+    {
+      "id": "8144",
+      "c_id": "304",
+      "name": "Advanced SQL for Data Analytics",
+      "d_id": "2",
+      "duration": "35"
+    },
+    {
+      "id": "67d5",
+      "c_id": "305",
+      "name": "Cloud Infrastructure Basics",
+      "d_id": "3",
+      "duration": "25"
+    },
+    {
+      "id": "5cf0",
+      "c_id": "306",
+      "name": "Network Security Essentials",
+      "d_id": "3",
+      "duration": "20"
+    },
+    {
+      "id": "3e78",
+      "c_id": "307",
+      "name": "SAP ERP Fundamentals",
+      "d_id": "4",
+      "duration": "35"
+    },
+    {
+      "id": "3aa0",
+      "c_id": "308",
+      "name": "ERP Implementation Strategies",
+      "d_id": "4",
+      "duration": "40"
+    },
+    {
+      "id": "6d4e",
+      "c_id": "309",
+      "name": "Software Testing Essentials",
+      "d_id": "5",
+      "duration": "15"
+    },
+    {
+      "id": "8ad7",
+      "c_id": "310",
+      "name": "Automation Testing with Selenium",
+      "d_id": "5",
+      "duration": "20"
+    }
+  ],
+  "trainer": [],
+  "teams": []
+}

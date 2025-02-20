@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teams Management</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Learning Dashboard</a>
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="employees.html">Employees</a></li>
+        <li class="nav-item"><a class="nav-link active" href="teams.html">Teams</a></li>
+        <li class="nav-item"><a class="nav-link" href="domains.html">Domains</a></li>
+        <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="trainers.html">Trainers</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="mb-4">Manage Teams</h1>
+
+    <!-- Form to create/update a team -->
+    <form id="teamForm">
+      <div class="mb-3">
+        <label for="teamId" class="form-label">Team ID</label>
+        <input type="number" class="form-control" id="teamId" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="teamName" class="form-label">Team Name</label>
+        <input type="text" class="form-control" id="teamName" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="employeeSelect" class="form-label">Add Team Members</label>
+        <div class="input-group">
+          <select class="form-select" id="employeeSelect">
+            <option value="" selected disabled>Select an Employee</option>
+          </select>
+          <button type="button" class="btn btn-secondary" id="addMemberButton">Add Member</button>
+        </div>
+        <ul class="list-group mt-3" id="teamMembersList"></ul>
+      </div>
+
+      <button type="submit" class="btn btn-primary" id="submitButton">Create Team</button>
+    </form>
+
+    <!-- Table to display teams -->
+    <h2 class="mt-5">Teams List</h2>
+    <table class="table mt-3">
+      <thead>
+        <tr>
+          <th>Team ID</th>
+          <th>Team Name</th>
+          <th>Members</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="teamsTableBody"></tbody>
+    </table>
+  </div>
+
+  <script src="../scripts/teams.js"></script>
+</body>
+</html>
